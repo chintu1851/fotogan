@@ -2731,6 +2731,85 @@ img {
 .slick-slide img {
   display: inline-block;
 }
+.project-title {
+    text-align: center;
+    font-size: 36px;
+    color: black; /* Matches existing color scheme */
+    margin-bottom: 30px;
+}
+
+.project-filters {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.filter-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: #252525;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+    background-color: rgb(141, 141, 141);
+    color: white;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-item {
+    display: none; /* Hide by default */
+}
+
+.project-item.active {
+    display: block; /* Show active items */
+}
+
+.pj-list-item {
+    background: #171717;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+}
+
+.pj-list__img img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ffffff;
+}
+
+.pj-list__title {
+    font-size: 18px;
+    color: #ffffff;
+    margin: 15px 0 10px;
+}
+
+.pj-list-item span a {
+    font-size: 14px;
+    color: #aaa;
+    text-decoration: none;
+}
+
+.pj-list-item p {
+    font-size: 14px;
+    color: #ddd;
+    line-height: 1.5;
+}
+
 @media (max-width: 767px) {
   .slick-slide img {
     padding: 0;
