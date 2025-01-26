@@ -1855,11 +1855,11 @@ img {
   position: absolute;
   top: 50%;
   right: 25px;
-  -webkit-transform: translateY(-50%) rotate(-90deg);
+  /* -webkit-transform: translateY(-50%) rotate(-90deg);
   -moz-transform: translateY(-50%) rotate(-90deg);
   -ms-transform: translateY(-50%) rotate(-90deg);
   -o-transform: translateY(-50%) rotate(-90deg);
-  transform: translateY(-50%) rotate(-90deg);
+  transform: translateY(-50%) rotate(-90deg); */
 }
 .main-menu ul li .submenu li a,
 .normal-menu ul li .submenu li a {
